@@ -22,7 +22,7 @@ button.on("click", function() {
     var inputElement = d3.select("#datetime").property("value");
   
     // Get the value property of the input element
-    var inputDate = inputElement.toString(); ;
+    var inputDate = inputElement.toString();
     console.log(inputDate);
 
     //Filter the data for the new date  
